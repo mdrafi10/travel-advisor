@@ -5,6 +5,7 @@ export default makeStyles((theme) => ({
     display: "none",
     [theme.breakpoints.up("sm")]: {
       display: "block",
+      marginRight: "10px",
     },
   },
   search: {
